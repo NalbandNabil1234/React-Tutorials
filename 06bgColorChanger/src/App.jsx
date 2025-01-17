@@ -3,9 +3,7 @@ import { useState } from 'react'
 
 function App() {
   const [color, setColor] = useState('#4b5563')
-  let colorChange = () => {
-
-  }
+  
   return (
     <div className='w-screen h-screen flex justify-center items-center' style={{backgroundColor: color}}>
 
